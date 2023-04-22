@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./main.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="tittle"><h1>CALCULADORA DE IMC</h1></div>
+        <div class="container_ambos row">
+            <div class="container_izquierda col-pq-12 col-sm-12 col-md-12 col-lg-6 col-xlg-6 col-xxlg-6">
+                <div class="peso">
+                   <div><h2>Peso</h2><br>
+                    <input type="number" id="peso"></div>
+                </div>
+                <div class="altura">
+                    <div><h2>Altura</h2><br>
+                    <input type="number" id="altura"></div>
+                </div>
+                <button class="button1 btn-primary btn btn-calcular col-pq-3 col-sm-3 col-md-3 col-lg-3 col-xlg-3 col-xxlg-3" onclick="calcular()">CALCULAR</button>
+                <button class="button2 btn-primary btn btn-reiniciar col-pq-3 col-sm-3 col-md-3 col-lg-3 col-xlg-3 col-xxlg-3" onclick="reiniciar()">REINICIAR</button>
+            </div>
+            <div class="container_derecha col-pq-12 col-sm-12 col-md-12 col-lg-6 col-xlg-6 col-xxlg-6">
+                <h2>SU IMC (Indice de Masa Corporal) es:</h2>
+                <div class="resultado col-pq-3 col-sm-3 col-md-3 col-lg-3 col-xlg-3 col-xxlg-3" id="resultadoo" ></div>
+                <div class="img1 col-pq-12 col-sm-12 col-md-12 col-lg-12 col-xlg-12 col-xxlg-12 img-fluid" class="d-flex">
+                    <div><img src="https://static.tuasaude.com/media/article/me/dr/imc_15748_l.jpg" alt="" width="300px"></div>
+                    <div><img src="./fotos/flecha2.png" alt="" class="a1" width="50px" id="img2" class="img2">
+                    <img src="./fotos/flecha2.png" alt="" width="50px" class="a1" id="img3" class="img3">
+                    <img src="./fotos/flecha2.png" alt=""  width="50px" class="a1" id="img4" class="img4">
+                    <img src="./fotos/flecha2.png" alt=""  width="50px" class="a1" id="img5" class="img5"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

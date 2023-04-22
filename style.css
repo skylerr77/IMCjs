@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    padding: 5%;
+}
+.container{
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+h1,h2,input{
+    text-align: center;
+}
+input{
+    padding: 8%;
+    width: 100%;
+}
+
+.container_ambos{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.container_izquierda{
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.button1,.button2{
+    width: 30%;
+    height: 10%;
+    background-color: blue;
+    color: white;
+    font-weight: 900;
+    font-size:larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button1{
+    margin-top: 5%; 
+}
+.button2{
+    margin-top: 2%; 
+}
+.tittle{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_derecha{
+    width: 50%;
+    height: 80%;
+}
+.resultado{
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1{
+    margin-top: 3%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.peso{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.altura{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    padding-top: 3%;
+}
+#img2,#img3,#img4,#img5{
+    opacity: 0;
+}
+.a1{
+    margin-left: 5% ;
+}
